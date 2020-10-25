@@ -1,7 +1,7 @@
 #include "Estoque.h"
 
 void imprimeMenu(){
- puts("\n+----------------------------------------------------+\n|   CONTROLE DE ESTOQUE ALI-IFB                      |\n|                                                    |\n|   1 - Cadastrar novo produto;                      |\n|   2 - Atualizar informações de um produto;         |\n|   3 - Vender produto;                              |\n|   4 - Consultar informações de um produto;         |\n|   5 - Consultar quantidade de todos os produtos;   |\n|   6 - Finalizar Programa;                          |\n+----------------------------------------------------+");
+ puts("\n+----------------------------------------------------+\n|   Controle de Estoque ALI-IFB                      |\n|                                                    |\n|   1 - Cadastrar novo produto;                      |\n|   2 - Atualizar informações de um produto;         |\n|   3 - Vender produto;                              |\n|   4 - Consultar informações de um produto;         |\n|   5 - Consultar quantidade de todos os produtos;   |\n|   6 - Finalizar Programa;                          |\n+----------------------------------------------------+");
 }
 
 void geracodigo(char* pais, int valor, char* codigo){
@@ -13,7 +13,7 @@ void geracodigo(char* pais, int valor, char* codigo){
         }
 
         else if(i==2){
-            
+
             strcat(codigo, "IFB");
             i=4;
         }
